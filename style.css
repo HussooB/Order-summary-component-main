@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+.attribution { font-size: 11px; text-align: center; margin-top: 2rem;}
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+  box-sizing: border-box;
+} 
+body{
+ height: 100vh;
+ width:100%;
+ display: flex;
+ flex-direction: column;
+ background-color: hsl(225, 100%, 94%);  
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-family: "Red Hat Display", sans-serif;
+ background-image: url(images/pattern-background-desktop.svg);
+ background-repeat: no-repeat;
+ background-size: 100%;
+}
+.big-container{
+  height: 78%;
+  width:23%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2rem;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.img{
+width:100%;
+overflow: hidden;
+}
+.img img{
+  object-fit: cover;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  width:100%;
+  
+} 
+.header{
+  width:100%;
+  text-align: center;
+}
+.header h1{
+  margin:0;
+  margin-top: 2rem;
+  color:hsl(223, 47%, 23%);
+}
+.par{
+  width:100%;
+  text-align: center;
+
+}
+.par p{
+  width:90%;
+  padding-left:2rem;
+  line-height: 1.5rem;
+  color:hsl(224, 23%, 55%);
+  
+}
+.order-plan{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color:  hsl(225, 100%, 98%);
+  width:90%;
+  border-radius: 1rem;
+
+}
+.order-plan img{
+  height:70%;
+  padding-right: 2rem;
+}
+.order-plan p{
+  padding-left: 0;
+
+  
+  
+}
+.order-plan a{
+  padding-left: 5.5rem;
+  color:hsl(245, 75%, 52%);
+  text-decoration: underline;
+}
+.music{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  
+}
+.music p{
+  margin-left:0 ;
+  color:hsl(224, 23%, 55%);
+  padding-left:0.6rem;
+}
+.music span{
+  color:hsl(223, 47%, 23%);;
+  font-size: 19px;
+}
+.music img{
+  margin: 0;
+  margin-left:1rem;
+  padding-right: 0.4rem;
+}
+.btn{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn button{
+  margin-left :0.2rem;
+  margin-top: 2rem;
+  width:80%;
+  height:2.8rem;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  border:none;
+  color:white;
+}
+.cancel{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  color:hsl(224, 23%, 55%);
+}
