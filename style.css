@@ -20,8 +20,9 @@ body{
  background-size: 100%;
 }
 .big-container{
-  height: 78%;
-  width:23%;
+  height: auto;
+  width:auto;
+  max-width:420px;
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -133,5 +134,20 @@ overflow: hidden;
   align-items: center;
   margin-top: 1rem;
   color:hsl(224, 23%, 55%);
+  margin-bottom: 1.5rem;
+  margin-top: 1.3rem;
   
+}
+.btn button:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+.order-plan a:hover{
+  opacity: 0.9;
+  cursor: pointer;
+  text-decoration: none;
+}
+.cancel a:hover{
+  color:black;
+  cursor: pointer;
 }
