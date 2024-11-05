@@ -126,6 +126,7 @@ overflow: hidden;
   border-radius: 10px;
   border:none;
   color:white;
+  box-shadow: 5px 7px 7px hsl(224, 23%, 55%);
 }
 .cancel{
   width:100%;
