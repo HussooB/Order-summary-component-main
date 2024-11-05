@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 .attribution { font-size: 11px; text-align: center; margin-top: 2rem;}
 .attribution a { color: hsl(228, 45%, 44%); }
 *{
@@ -101,12 +101,15 @@ overflow: hidden;
 }
 .music p{
   margin-left:0 ;
-  color:hsl(224, 23%, 55%);
+  color:hsl(223, 47%, 23%);
   padding-left:0.6rem;
+  font-size: 17px;
+  font-family: "Red Hat Display", sans-serif;
 }
-.music span{
-  color:hsl(223, 47%, 23%);;
-  font-size: 19px;
+.music span {
+  color:hsl(224, 85%, 28%);
+  font-size: 21px;
+  font-family: "Itim", cursive;
 }
 .music img{
   margin: 0;
