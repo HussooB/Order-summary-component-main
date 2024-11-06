@@ -22,8 +22,8 @@ body{
  
 }
 .big-container{
+  margin-top: 10rem;
   height: auto;
-  margin:40px auto;
   width:auto;
   max-width:420px;
   background-color: #fff;
