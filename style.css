@@ -22,7 +22,6 @@ body{
  
 }
 .big-container{
-  margin-top: 10rem;
   height: auto;
   width:auto;
   max-width:420px;
@@ -31,6 +30,7 @@ body{
   flex-direction: column;
   align-items: center;
   border-radius: 2rem;
+  scale: 0.85;
 }
 .content{
   display: flex;
